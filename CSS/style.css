@@ -1,0 +1,52 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #F2EFE9 ;
+}
+
+html,
+body {
+    height: auto;
+    min-width: 100vh;
+}
+
+html {
+    background: linear-gradient(203deg, #F2594B 24.45%, #F26444 57.01%);
+}
+
+input:focus {
+    outline: none;
+}
+
+#resgister-container {
+    max-width: 900px;
+    min-height: 80vh;
+    margin: 2rem auto;
+    display: flex;
+    -webkit-box-shadow: 14px 24px 81px -30px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 14px 24px 81px -30px rgba(0, 0, 0, 1);
+    box-shadow: 14px 24px 81px -30px rgba(0, 0, 0, 1);
+}
+
+#register-banner {
+    background-image: url(../IMG/portrait-interracial-couple-using-laptop-together.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+}
+
+#banner-layer {
+    background-color: rgba(242, 89, 75, 0.4);
+    height: 100%;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+#register-banner h1 {
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+    word-spacing: 10rem;
+}
